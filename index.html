@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ripple button</title>
+  <link rel="stylesheet" href="css/ripple.css">
+  <style>
+    .btn,
+    .btn:focus {
+      padding: 0.5em 2.0em;
+      border-radius: 0.2em;
+      box-shadow: 1px 2px 2px #bdbdbd;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-blue {
+      background-color: #2196F3;
+      color: #fff;
+    }
+    .btn-blue:hover {
+      box-shadow: 1px 2px 6px #bdbdbd;
+    }
+  </style>
+  <script src="js/jquery.js"></script>
+  <script src="js/ripple.js"></script>
+</head>
+<body>
+  <button class="btn btn-blue ripple" data-ripple-color="#1976D2">按 钮</button>
+</body>
+</html>
